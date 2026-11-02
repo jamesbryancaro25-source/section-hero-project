@@ -9,6 +9,8 @@
 </head>
 <body>
 
+    <!-- HEADER -->
+
     <header class="header">
         <div class="logo">
             THE <span>LUXURY</span> HOTEL
@@ -17,18 +19,21 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
         <div class="nav-button">
-            <a href="#">Book Now</a>
+            <a href="#rooms">Book Now</a>
         </div>
     </header>
 
     <main>
+
+        <!-- HERO SECTION -->
+
         <section class="hero">
 
             <div class="hero-content">
@@ -48,11 +53,11 @@
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#" class="primary-btn">
+                    <a href="#rooms" class="primary-btn">
                         Book Your Stay
                     </a>
 
-                    <a href="#" class="secondary-btn">
+                    <a href="#services" class="secondary-btn">
                         Explore More
                     </a>
                 </div>
@@ -64,13 +69,119 @@
             </div>
 
         </section>
-        
-        <section class="features">
+
+        <!-- HOTEL ROOMS SECTION -->
+
+        <section class="rooms" id="rooms">
+
+            <div class="rooms-heading">
+                <span>OUR ACCOMMODATIONS</span>
+                <h2>Discover Our <span>Rooms</span></h2>
+                <p>
+                    Find the perfect room for your unforgettable stay.
+                </p>
+            </div>
+
+            <div class="rooms-container">
+
+                <!-- DELUXE ROOM -->
+
+                <div class="room-card">
+
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+                             alt="Deluxe hotel room">
+                    </div>
+
+                    <div class="room-content">
+                        <h3>Deluxe Room</h3>
+
+                        <p>
+                            Experience comfort and elegance
+                            in our beautifully designed deluxe room.
+                        </p>
+
+                        <div class="room-price">
+                            ₱3,500 <span>/ night</span>
+                        </div>
+
+                        <a href="#contact" class="room-btn">
+                            Book Now
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- EXECUTIVE SUITE -->
+
+                <div class="room-card">
+
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427"
+                             alt="Executive hotel suite">
+                    </div>
+
+                    <div class="room-content">
+                        <h3>Executive Suite</h3>
+
+                        <p>
+                            Enjoy spacious interiors and
+                            premium amenities for a relaxing stay.
+                        </p>
+
+                        <div class="room-price">
+                            ₱6,500 <span>/ night</span>
+                        </div>
+
+                        <a href="#contact" class="room-btn">
+                            Book Now
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- PRESIDENTIAL SUITE -->
+
+                <div class="room-card">
+
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+                             alt="Presidential hotel suite">
+                    </div>
+
+                    <div class="room-content">
+                        <h3>Presidential Suite</h3>
+
+                        <p>
+                            Indulge in exceptional luxury,
+                            elegance, and ultimate relaxation.
+                        </p>
+
+                        <div class="room-price">
+                            ₱12,000 <span>/ night</span>
+                        </div>
+
+                        <a href="#contact" class="room-btn">
+                            Book Now
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HOTEL FEATURES / SERVICES -->
+
+        <section class="features" id="services">
 
             <div class="features-heading">
                 <span>OUR SERVICES</span>
                 <h2>Discover Our <span>Luxury</span></h2>
-                <p>Experience comfort and elegance in every moment.</p>
+                <p>
+                    Experience comfort and elegance in every moment.
+                </p>
             </div>
 
             <div class="features-container">
@@ -107,6 +218,14 @@
         </section>
 
     </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer" id="contact">
+        <h3>THE <span>LUXURY</span> HOTEL</h3>
+        <p>Experience luxury beyond expectations.</p>
+        <p>© 2026 The Luxury Hotel. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
