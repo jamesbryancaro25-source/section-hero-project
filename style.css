@@ -172,3 +172,90 @@ body {
         flex-wrap: wrap;
     }
 }
+
+/* HOTEL FEATURES */
+
+.features {
+    padding: 70px 7%;
+    background-color: white;
+    text-align: center;
+}
+
+.features-heading span {
+    color: #1253a2;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.features-heading h2 {
+    font-size: 35px;
+    color: #00275f;
+    margin: 15px 0;
+}
+
+.features-heading h2 span {
+    color: #ffad00;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.features-heading p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feature-card {
+    flex: 1;
+    padding: 35px 25px;
+    background-color: #e9edf3;
+    border-radius: 12px;
+    border: 1px solid #d5dfed;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-icon {
+    font-size: 40px;
+    color: #ffad00;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    color: #00275f;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* RESPONSIVE FEATURES */
+
+@media screen and (max-width: 768px) {
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-heading h2 {
+        font-size: 28px;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+}
+
